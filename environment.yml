@@ -4,6 +4,7 @@ channels:
   - defaults
   - ddboline
 dependencies:
+  - pyyaml
   - matplotlib
   - jupyter
   - pandas
