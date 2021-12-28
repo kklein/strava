@@ -10,7 +10,7 @@ with open("auth.yaml") as filehandle:
 
 client = Client()
 
-with open("access_token", "rb") as f:
+with open("access_token.pickle", "rb") as f:
     access_token = pickle.load(f)
 
 client.access_token = access_token["access_token"]
