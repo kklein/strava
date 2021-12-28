@@ -1,0 +1,12 @@
+name: strava_analysis
+channels:
+  - conda-forge
+  - defaults
+  - ddboline
+dependencies:
+  - matplotlib
+  - jupyter
+  - pandas
+  - pip
+  - pip:
+    - stravalib
